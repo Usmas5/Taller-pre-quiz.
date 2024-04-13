@@ -4,3 +4,5 @@ import matplotlib.pyplot as plt
 import scipy.io as sio
 
 array = np.random.rand(20, 50, 30, 40)
+
+tresd_array = array[:,:,:,0].copy()
